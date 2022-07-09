@@ -350,6 +350,13 @@ body {
   .products {
     padding: 3rem 0;
   }
+  .products-wrapper {
+    gap: 4px;
+    justify-content: space-between;
+  }
+  .products-card {
+    flex: 0 0 47%;
+  }
   .products h2 {
     margin-bottom: 5Gbrem;
   }
@@ -423,7 +430,7 @@ body {
   width: 423px;
   height: 432px;
   border-radius: 24px;
-  background-color: #F1F1F1;
+  background-color: #f1f1f1;
 }
 
 .feature-right {
@@ -464,7 +471,8 @@ body {
   .feature-list div {
     width: 40%;
   }
-  .feature-right h2, .feature-right p {
+  .feature-right h2,
+  .feature-right p {
     text-align: center;
   }
   .feature-list p {
