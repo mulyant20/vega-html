@@ -402,6 +402,13 @@ body {
   .about-img {
     display: none;
   }
+  .about p {
+    max-width: 100%;
+  }
+  .about-number {
+    gap: 4px;
+    justify-content: center;
+  }
 }
 
 .feature {
