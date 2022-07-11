@@ -22,7 +22,8 @@
   }
 
   .products-card {
-    height: 200px;
+    height: 220px;
+
   }
 
   .products-card__img {
@@ -30,9 +31,37 @@
     margin-bottom: 1rem;
   }
 
-  .product .theme {
+  .products-card__desc {
+    padding: 0 1rem;
+    margin-bottom: 0;
+  }
+
+  .products-card-type {
+    margin-bottom: 2px;
+    font-size: 13px;
+  }
+
+  .products-card-title {
+    font-size: 1rem;
+    letter-spacing: 1px;
+  }
+  
+  .products-card-price {
+    bottom: -1rem;
+    font-size: 14px;
+  }
+
+  .products .theme {
+    row-gap: 3rem;
     flex-direction: column;
-    margin: 0 0;
+  }
+
+  .theme-card {
+    height: 240px;
+  }
+
+  .theme-card img {
+    background-position: 0;
   }
 
   .products-card__img img {

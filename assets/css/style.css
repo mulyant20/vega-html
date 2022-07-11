@@ -320,6 +320,7 @@ body, button {
 
 .products-card-title {
   color: var(--text-dark);
+  font-family: var(--font-family-primary);
   font-size: 18px;
   font-weight: 600;
 }
