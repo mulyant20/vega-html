@@ -37,12 +37,6 @@ button {
   margin-inline: auto;
 }
 
-@media (max-width: 800px) {
-  .container {
-    padding: 0 1rem;
-  }
-}
-
 /* header */
 
 .header {
@@ -135,18 +129,6 @@ button {
   gap: 1.5rem;
 }
 
-@media (max-width: 800px) {
-  .header {
-    padding: 0 1rem;
-  }
-  .nav-links {
-    display: none;
-  }
-  .btn-mobile {
-    display: flex;
-  }
-}
-
 /* above */
 
 .above {
@@ -197,17 +179,6 @@ button {
 
 .above-bg img {
   width: 100%;
-}
-
-@media (max-width: 800px) {
-  .above-heading {
-    flex-direction: column;
-    gap: 0;
-    padding: 0 1rem;
-  }
-  .above-heading div {
-    max-width: 100%;
-  }
 }
 
 /* product */
@@ -491,7 +462,6 @@ button {
 
 .footer-top {
   text-align: center;
-  outline: 1px solid red;
   padding: 56px 0 80px;
 }
 
@@ -508,4 +478,84 @@ button {
 
 .footer-links {
   gap: 2rem;
+}
+
+/* products page */
+
+.above-products {
+  padding: 40px 0;
+}
+
+.above-products .container {
+  background-color: #f1f1f1;
+  height: 220px;
+  border-radius: 24px;
+}
+
+.products-area .container {
+  display: flex;
+}
+
+.catalogue-products {
+  width: 160px;
+}
+
+.catalogue-group {
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.catalogue-group h4 {
+  font-family: var(--font-family-primary);
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.catalogue-group p {
+  cursor: pointer;
+  padding: 8px 20px;
+  border-radius: 6px;
+  margin-left: 8px;
+  position: relative;
+  transition: all 150ms ease-in;
+}
+
+.catalogue-group p:hover {
+  color: #70ac6b;
+  background-color: #5c8b580e;
+}
+
+.catalogue-group p:hover::before {
+  content: "";
+  position: absolute;
+  width: 3px;
+  height: 60%;
+  border-radius: 6px;
+  background-color: #70ac6b;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.products-body {
+  margin-left: 8px;
+  width: calc(100% - 152px);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3rem;
+  row-gap: 2rem;
+}
+
+.flashsale-area .container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.timer {
+  text-align: center;
 }
