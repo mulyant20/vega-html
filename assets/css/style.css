@@ -357,25 +357,6 @@ body, button {
   height: 100%;
 }
 
-@media (max-width: 800px) {
-  .products {
-    padding: 3rem 0;
-  }
-  .products-wrapper {
-    gap: 4px;
-    justify-content: space-between;
-  }
-  .products-card {
-    flex: 0 0 47%;
-  }
-  .products h2 {
-    margin-bottom: 5rem;
-  }
-  .products .theme {
-    flex-direction: column;
-  }
-}
-
 .about {
   background-color: #ececec;
   padding: 88px 0;
