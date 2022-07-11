@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500&family=Source+Serif+Pro:wght@400;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500&family=Source+Serif+Pro:wght@400;600&display=swap");
 
 :root {
   --text-dark: #130f26;
   --text-light: #585565;
   --primary: #5c8b58;
-  --font-family-primary: 'EB Garamond', serif;
-  --font-family-secondary: 'Source Serif Pro', serif;
+  --font-family-primary: "EB Garamond", serif;
+  --font-family-secondary: "Source Serif Pro", serif;
 }
 
 * {
@@ -27,7 +27,8 @@ body {
   height: 100%;
 }
 
-body, button {
+body,
+button {
   font-family: var(--font-family-secondary);
 }
 
@@ -488,51 +489,23 @@ body, button {
   margin-bottom: 4px;
 }
 
-.banner {
-  padding: 80px 0;
+.footer-top {
+  text-align: center;
+  outline: 1px solid red;
+  padding: 56px 0 80px;
 }
 
-.banner .container {
-  padding: 64px 48px;
-  background-color: #d4d3d3;
-  border-radius: 24px;
+.footer-below,
+.footer-links,
+.footer-social {
+  display: flex;
 }
 
-.banner h2 {
-  max-width: 24ch;
-  line-height: 120%;
-  font-size: 32px;
-  margin-bottom: 2rem;
+.footer-below {
+  justify-content: space-between;
+  padding: 2rem 0 4rem;
 }
 
-.banner-textfield {
-  position: relative;
-  width: 300px;
-  height: 48px;
-  background-color: #fff;
-  border-radius: 12px;
-}
-
-.banner-textfield input {
-  width: 100%;
-  height: 100%;
-  border-radius: 12px;
-  outline: none;
-  border: none;
-  padding: 8px 1rem;
-}
-
-.banner-btn {
-  height: calc(100% - 8px);
-  padding: 0 1rem;
-  border-radius: 8px;
-  position: absolute;
-  right: 4px;
-  top: 50%;
-  transform: translateY(-50%);
-  border: none;
-  outline: none;
-  background-color: var(--primary);
-  color: #fff;
-  cursor: pointer;
+.footer-links {
+  gap: 2rem;
 }
