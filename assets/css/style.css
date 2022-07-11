@@ -408,22 +408,6 @@ body, button {
   text-align: center;
 }
 
-@media (max-width: 800px) {
-  .about-number {
-    justify-content: center;
-  }
-  .about-img {
-    display: none;
-  }
-  .about p {
-    max-width: 100%;
-  }
-  .about-number {
-    gap: 4px;
-    justify-content: center;
-  }
-}
-
 .feature {
   margin: 104px 0;
 }
@@ -474,35 +458,6 @@ body, button {
 
 .feature-list p {
   font-size: 1rem;
-}
-
-@media (max-width: 800px) {
-  .feature .container {
-    flex-direction: column;
-  }
-  .feature-right {
-    margin: 4rem 0 0;
-  }
-  .feature-list {
-    margin-top: 2rem;
-    padding: 0 1rem;
-    justify-content: space-between;
-  }
-  .feature-list div {
-    width: 40%;
-  }
-  .feature-right h2,
-  .feature-right p {
-    text-align: center;
-  }
-  .feature-list p {
-    text-align: left;
-    max-width: 24ch;
-  }
-  .feature-img-wrapper {
-    display: flex;
-    justify-content: center;
-  }
 }
 
 .testimonial {
