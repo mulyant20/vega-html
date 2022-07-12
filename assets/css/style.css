@@ -123,7 +123,10 @@ button {
 
 .mobile-btn {
   font-size: 24px;
-  padding: 8px 8px 0;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  padding: 0  8px;
   border-radius: 8px;
   background-color: #f5f5f5;
   color: var(--text-light);
@@ -143,7 +146,8 @@ button {
   outline: none;
   border: none;
   cursor: pointer;
-  padding: 8px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
   transition: all 150ms ease-in;
   position: relative;
@@ -173,12 +177,13 @@ button {
   padding: 3px 6px;
   font-size: 10px;
   color: #fff;
-  right: 0;
-  top: 0;
+  right: -2px;
+  top: -2px;
 }
 
 .btn-open-mobile {
-  padding: 8px;
+  height: 40px;
+  width: 40px;
   border-radius: 50%;
   outline: none;
   border: none;
@@ -753,4 +758,5 @@ button {
 
 .timer {
   text-align: center;
+  margin-bottom: 4rem;
 }
