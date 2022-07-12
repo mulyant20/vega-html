@@ -389,6 +389,12 @@ button {
   height: 432px;
   border-radius: 24px;
   background-color: #f1f1f1;
+  overflow: hidden;
+  position: relative;
+}
+
+.feature-img img {
+  width: 100%;
 }
 
 .feature-right {
@@ -402,7 +408,7 @@ button {
 }
 
 .feature-list div {
-  width: 50%;
+  width: 48%;
   margin-top: 48px;
 }
 
@@ -465,6 +471,29 @@ button {
   padding: 56px 0 80px;
 }
 
+.footer-top h2 {
+  font-size: 32px;
+  margin-bottom: 4px;
+}
+
+.footer-top p {
+  max-width: 65ch;
+  margin: 0 auto;
+  line-height: 150%;
+  color: var(--text-light);
+  margin-bottom: 1rem;
+}
+
+.btn-footer {
+  padding: 14px 32px;
+  background-color: var(--primary);
+  color: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
 .footer-below,
 .footer-links,
 .footer-social {
@@ -478,6 +507,16 @@ button {
 
 .footer-links {
   gap: 2rem;
+}
+
+.footer-links a {
+  color: var(--text-light);
+}
+
+.footer-brand a {
+  font-size: 17px;
+  color: var(--text-dark);
+  font-weight: 600;
 }
 
 /* products page */
@@ -554,6 +593,7 @@ button {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  margin-bottom: 4rem;
 }
 
 .timer {
