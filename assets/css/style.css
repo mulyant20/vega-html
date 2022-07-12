@@ -407,7 +407,7 @@ button {
   position: absolute;
   font-size: 32px;
   left: 2rem;
-  bottom: -4rem;
+  bottom: -5rem;
 }
 
 .products .theme-card:hover p {
@@ -420,7 +420,7 @@ button {
 @keyframes showTheme {
   0% {
     opacity: 0;
-    bottom: -4rem;
+    bottom: -5rem;
   }
   100% {
     bottom: 2rem;
