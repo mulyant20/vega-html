@@ -357,16 +357,16 @@ button {
 }
 
 .products-card-type {
-  font-size: 15px;
+  font-size: 13px;
   color: var(--text-light);
-  margin-bottom: 8px;
+  margin-bottom: 2px;
 }
 
 .products-card-title {
   color: var(--text-dark);
   font-family: var(--font-family-primary);
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .products-card-price {
