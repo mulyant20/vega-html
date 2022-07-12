@@ -428,6 +428,16 @@ button {
   text-align: center;
 }
 
+.about-number div p {
+  font-size: 14px;
+}
+
+.about-number div p:first-child {
+  color: var(--text-dark);
+  font-weight: 600;
+  font-size: 20px;
+}
+
 .feature {
   margin: 104px 0;
 }
@@ -584,7 +594,8 @@ button {
   color: var(--text-light);
 }
 
-.footer-brand a {
+.footer-brand a,
+.nav-logo a {
   font-size: 17px;
   color: var(--text-dark);
   font-weight: 600;
