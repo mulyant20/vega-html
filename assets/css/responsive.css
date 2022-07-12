@@ -117,6 +117,14 @@
     justify-content: space-between;
   }
 
+  .about-number div p {
+    font-size: 14px;
+  }
+  
+  .about-number div p:first-child {
+    font-size: 24px;
+  }
+
   .about-img {
     display: none;
   }

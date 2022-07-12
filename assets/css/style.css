@@ -282,6 +282,7 @@ button {
   font-size: 18px;
   background-color: transparent;
   position: relative;
+  color: var(--text-light);
 }
 
 .products .tabs-products .tabs-products-btn.active,
@@ -429,13 +430,13 @@ button {
 }
 
 .about-number div p {
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .about-number div p:first-child {
   color: var(--text-dark);
   font-weight: 600;
-  font-size: 20px;
+  font-size: 32px;
 }
 
 .feature {
@@ -531,8 +532,20 @@ button {
   margin-bottom: 1rem;
 }
 
+.testimonial-below,
+.testimonial-rating {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.testimonial-rating i {
+  color: #f5b042;
+}
+
 .testimonial-user p {
   color: var(--text-light);
+  font-size: 14px;
 }
 
 .testimonial-user p:first-child {
