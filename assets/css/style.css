@@ -686,12 +686,13 @@ button {
   transition: all 150ms ease-in;
 }
 
-.catalogue-group p:hover {
+.catalogue-group p:hover,
+.catalogue-group p.active {
   color: #70ac6b;
   background-color: #5c8b580e;
 }
 
-.catalogue-group p:hover::before {
+.catalogue-group p.active::before {
   content: "";
   position: absolute;
   width: 3px;
