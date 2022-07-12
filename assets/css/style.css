@@ -621,13 +621,42 @@ button {
 }
 
 .above-products .container {
-  background-color: #f1f1f1;
+  background-color: #43AAB8;
+  background-image: url('../img/banner-bg.png');
   height: 220px;
   border-radius: 24px;
+  position: relative;
 }
 
 .products-area .container {
   display: flex;
+}
+
+.above-products-desc {
+  position: absolute;
+  left: 50%;
+  top: 54px;
+  transform: translateX(-50%);
+  color: #fff;
+}
+
+.above-products-desc p{
+  font-size: 18px;
+  columns: #BAF3FB;
+  margin-bottom: 4px;
+}
+
+.above-products-desc h2 {
+  font-size: 64px;
+  font-weight: 600;
+  color: #fff;
+}
+
+
+.banner-img {
+  position: absolute;
+  bottom: 0;
+  left: 72px;
 }
 
 .catalogue-products {
