@@ -78,7 +78,7 @@ button {
   height: 100%;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.16);
-  z-index: 10;
+  z-index: 100;
   display: none;
 }
 
@@ -621,12 +621,11 @@ button {
 }
 
 .above-products .container {
-  background-color: #43AAB8;
-  background-image: url('../img/banner-bg.png');
+  background-color: #43aab8;
+  background-image: url("../img/banner-bg.png");
   height: 220px;
   border-radius: 24px;
   position: relative;
-  overflow: hidden;
 }
 
 .products-area .container {
@@ -639,20 +638,20 @@ button {
   top: 54px;
   transform: translateX(-50%);
   color: #fff;
+  text-align: center;
 }
 
-.above-products-desc p{
+.above-products-desc p {
   font-size: 18px;
-  columns: #BAF3FB;
+  columns: #baf3fb;
   margin-bottom: 4px;
 }
 
 .above-products-desc h2 {
-  font-size: 64px;
+  font-size: 40px;
   font-weight: 600;
   color: #fff;
 }
-
 
 .banner-img {
   position: absolute;

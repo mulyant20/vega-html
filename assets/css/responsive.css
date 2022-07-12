@@ -185,6 +185,7 @@
 
   .above-products .container {
     height: 160px;
+    overflow: hidden;
   }
 
   .banner-img {
