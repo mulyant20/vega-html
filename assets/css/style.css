@@ -137,8 +137,6 @@ button {
   color: rgb(255, 129, 129);
 }
 
-
-
 .btn-bag {
   display: block;
   background-color: transparent;
@@ -566,6 +564,11 @@ button {
 .footer-links,
 .footer-social {
   display: flex;
+}
+
+.footer-social {
+  font-size: 20px;
+  gap: 1rem;
 }
 
 .footer-below {
