@@ -29,6 +29,11 @@
     max-width: 100%;
   }
 
+  .above-heading h1 {
+    font-size: 48px;
+    font-weight: 500;
+  }
+
   .products {
     padding: 3rem 0;
   }
@@ -77,16 +82,14 @@
   }
 
   .products .theme {
-    row-gap: 3rem;
+    row-gap: 2rem;
     flex-direction: column;
+    margin: 2rem 0 0;
   }
 
-  .theme-card {
-    height: 240px;
-  }
-
-  .theme-card img {
-    background-position: 0;
+  .products .theme-card {
+    height: 200px;
+    max-width: 100%;
   }
 
   .products-card__img img {
@@ -136,6 +139,8 @@
   .feature-img {
     height: 200px;
     width: 100%;
+    background-position: bottom;
+    background-size: cover;
   }
 
   .feature .container {

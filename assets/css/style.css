@@ -377,9 +377,20 @@ button {
 
 .products .theme-card {
   border-radius: 24px;
+  height: 465px;
+  width: 578px;
   overflow: hidden;
   position: relative;
   transition: 250ms ease-in;
+  background-size: cover;
+}
+
+.products .theme-card:first-child {
+  background-image: url('../img/theme-1.png');
+}
+
+.products .theme-card:last-child {
+  background-image: url('../img/theme-2.png');
 }
 
 .products .theme-card:hover::before {
@@ -390,11 +401,6 @@ button {
   border-radius: 24px;
   background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 100%);
   opacity: 0.8;
-}
-
-.products .theme-card img {
-  width: 100%;
-  height: 100%;
 }
 
 .about {
@@ -465,9 +471,9 @@ button {
   width: 423px;
   height: 432px;
   border-radius: 24px;
-  background-color: #f1f1f1;
-  overflow: hidden;
+  background-image: url('../img/feature.jpg');
   position: relative;
+  background-size: cover;
 }
 
 .feature-img img {
